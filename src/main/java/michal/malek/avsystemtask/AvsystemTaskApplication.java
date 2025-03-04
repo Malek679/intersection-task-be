@@ -1,0 +1,13 @@
+package michal.malek.avsystemtask;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AvsystemTaskApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(AvsystemTaskApplication.class, args);
+    }
+
+}
