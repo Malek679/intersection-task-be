@@ -1,4 +1,4 @@
-package michal.malek.avsystemtask.model;
+package michal.malek.avsystemtask.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,6 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class LicensePlateResponse {
+public class CarDataResponse {
     private String license_plate;
+    private String make_and_model;
 }

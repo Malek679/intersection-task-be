@@ -1,20 +1,20 @@
-package michal.malek.avsystemtask.model;
-
+package michal.malek.avsystemtask.model.dto;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import michal.malek.avsystemtask.model.route.Route;
 import michal.malek.avsystemtask.model.vehicle.Vehicle;
 
 import java.util.LinkedList;
 import java.util.List;
 
-@Data
-@Builder
+@NoArgsConstructor
 @AllArgsConstructor
-public class Intersection {
+@Getter
+@Setter
+public class IntersectionResponse {
     private LinkedList<Route> routes;
-    private List<List<String>> combinations;
     private List<Vehicle> vehiclesInside;
 }
